@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.68c1f794.css",
-    "main.js": "/static/js/main.e249d59b.js",
+    "main.css": "/static/css/main.a23e89e5.css",
+    "main.js": "/static/js/main.2cd0cb32.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/Transcity DEMO.otf": "/static/media/Transcity DEMO.c90eea6342d78a3c76f2.otf",
     "index.html": "/index.html",
-    "main.68c1f794.css.map": "/static/css/main.68c1f794.css.map",
-    "main.e249d59b.js.map": "/static/js/main.e249d59b.js.map",
+    "main.a23e89e5.css.map": "/static/css/main.a23e89e5.css.map",
+    "main.2cd0cb32.js.map": "/static/js/main.2cd0cb32.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68c1f794.css",
-    "static/js/main.e249d59b.js"
+    "static/css/main.a23e89e5.css",
+    "static/js/main.2cd0cb32.js"
   ]
 }
