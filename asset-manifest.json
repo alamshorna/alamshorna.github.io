@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a23e89e5.css",
-    "main.js": "/static/js/main.2cd0cb32.js",
-    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "main.css": "/static/css/main.3ab1e90d.css",
+    "main.js": "/static/js/main.e8a0b7d5.js",
+    "static/js/365.b2faf541.chunk.js": "/static/js/365.b2faf541.chunk.js",
+    "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
+    "static/media/NotoSans-Light.ttf": "/static/media/NotoSans-Light.4f78d44bd300d565d629.ttf",
     "static/media/Transcity DEMO.otf": "/static/media/Transcity DEMO.c90eea6342d78a3c76f2.otf",
     "index.html": "/index.html",
-    "main.a23e89e5.css.map": "/static/css/main.a23e89e5.css.map",
-    "main.2cd0cb32.js.map": "/static/js/main.2cd0cb32.js.map",
-    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+    "static/media/learning-CUDA.md": "/static/media/learning-CUDA.07520c983ea5ceceb53d.md",
+    "main.3ab1e90d.css.map": "/static/css/main.3ab1e90d.css.map",
+    "main.e8a0b7d5.js.map": "/static/js/main.e8a0b7d5.js.map",
+    "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a23e89e5.css",
-    "static/js/main.2cd0cb32.js"
+    "static/css/main.3ab1e90d.css",
+    "static/js/main.e8a0b7d5.js"
   ]
 }
