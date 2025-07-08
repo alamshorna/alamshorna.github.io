@@ -1,0 +1,58 @@
+/* src/styles/global.css */
+
+@font-face {
+    font-family: 'Transcity'; 
+    src: url('../fonts/Transcity DEMO.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'NotoSans'; 
+    src: url('../fonts/NotoSans-Light.ttf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 10 10;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fffef6; 
+    color: #333;
+    line-height: 1.6; 
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+  }
+
+  ul {
+    list-style: none; 
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px; 
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,15 @@
+    .home-container {
+        padding: 5rem;       
+        padding-top: 2rem;
+        max-width: 64rem;    
+        margin: 0 auto;     
+        padding-left: 5rem;  
+        font-size: 1.15rem;
+        color: #333;
+    }
+
+    .home-container h1 {
+        font-size: 1.5rem;   
+        font-family: 'NotoSans', sans-serif;
+    }
+    
