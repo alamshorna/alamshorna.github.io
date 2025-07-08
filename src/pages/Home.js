@@ -53,8 +53,18 @@ function Home() {
         </div>
 
         <div className="home-container">
+            <div className="name-paragraph">
+              <p style={{ position: 'relative' }}>
+                Hi, I'm Shorna! 
+                <img
+                  src="/waving_shorna.png" 
+                  alt="Waving Shorna" 
+                  className="waving-image"
+                />
+              </p>
+            </div>
             <p>
-              Hi, I'm Shorna! I'm a senior at MIT, majoring in Computer Science and minoring in Biology. I'm broadly interested in solving difficult problems
+              I'm a senior at MIT, majoring in Computer Science and minoring in Biology. I'm broadly interested in solving difficult problems
               at the intersection of deep learning and the life sciences.
             </p>
             <p>

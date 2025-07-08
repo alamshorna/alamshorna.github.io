@@ -6,7 +6,17 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-content">
-        <Link to="/" className="home-link">Home</Link>
+        <Link to="/" className="home-link">
+          <img 
+            src="/strawby.png" 
+            alt="Substack" 
+            style=
+            {{
+              width: '100px',
+              height: '100px'
+            }}
+          />
+        </Link>
         <div className="navbar-links">
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/notes">Notes</Link>

@@ -1,13 +1,14 @@
 
   .navbar {
-    border-top: 2px solid #5e9956;
-    border-bottom: 2px solid #5e9956; 
-    padding: 10px 10px; 
+    /* border-top: 2px solid #5e9956;
+    border-bottom: 2px solid #5e9956;  */
+    padding: 5px;
     width: 100%; 
     margin-top: 20px;
   }
   
   .navbar-content {
+
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -22,14 +23,18 @@
     text-decoration: none; 
     margin-left: 0;
   }
-  
+
   .navbar-links {
-    display: flex; 
-    justify-content: space-between; 
-    gap: 20px; 
+    border-top: 2px solid #5e9956;
+    border-bottom: 2px solid #5e9956;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    flex-grow: 1;
+    margin-left: 20px; 
+    padding: 10px 0;
   }
-  
-  .navbar-links a {
+  .navbar-links a { 
     font-family: 'Transcity', sans-serif;
     font-size: 30px;
     color: #5e9956;

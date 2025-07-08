@@ -11,10 +11,10 @@ import BlogPost from './pages/BlogPost';
 function App() {
   return (
     <Router>
-      <Navbar /> {/* Add Navbar here so it's always visible */}
+      <Navbar /> {}
 
       <Routes>
-        <Route path="/" element={<Home />} />  {/* Homepage route */}
+        <Route path="/" element={<Home />} />  {}
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/notes" element={<Notes />} />
         <Route path="/notes/:fileName" element={<NotePage />} />
