@@ -1,7 +1,26 @@
   .notes-container {
     padding: 5rem;       /* same as p-8 */
     padding-top: 2rem;
-    max-width: 64rem;    /* same as max-w-4xl */
+    max-width: 90%;    /* same as max-w-4xl */
     margin: 0 auto;      /* same as mx-auto */
-    padding-left: 4rem;  /* extra left padding */
+    padding-left: 1rem;  /* extra left padding */
+    font-size: 1.15rem;
+    color: #333;
+  }
+
+  .notes-container p {
+    color: #333;
+  }
+
+  .notes-container h1 {
+    font-size: 2rem;
+    font-family: 'NotoSans', sans-serif;
+  }
+
+  .notes-container h2 {
+    color: #333;
+  }
+
+  .notes-container h3 {
+    color: #333;
   }
