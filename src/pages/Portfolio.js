@@ -5,17 +5,24 @@ function Portfolio() {
   return (
     <div className="portfolio-container">
       <p>
-        I'm a blogger for MIT Admissions and I also write personal essays on my Substack at&nbsp;
-        <a href="https://shornaalam.substack.com" target="_blank" rel="noopener noreferrer">
-          shornaalam.substack.com
-        </a>.
-        Aside from more creative writing, I have technical posts on this website, under the Blogs tab.
+        I'm a writer! You can read my writing on:
+        <ul>
+          <li>
+            <a href="https://mitadmissions.org/blogs/author/shorna/" target="_blank" rel="noopener noreferrer">MIT Admissions</a>
+          </li>
+          <li>
+            <a href="https://shornaalam.substack.com/" target="_blank" rel="noopener noreferrer">blogfrog</a>
+          </li>
+          <li>
+            the blog tab of this website!
+          </li>
+        </ul>
       </p>
       <p>
-        In college, I did a capella and was briefly in musical theater! I am also classically trained in piano and can play the clarinet.
+        
       </p>
       <p>
-        Mostly, though, I love making visual art! Here is a small selection of pieces I've made (more pictures coming soon!)
+        I also make visual art! You can see a small sample here:
       </p>
 
       <div className="portfolio-images">

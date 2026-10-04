@@ -47,14 +47,23 @@ function Home() {
               </div>
             </div>
             <p>
-              I'm a master's student in CS at MIT. I do computational biology research!
+              I'm a master's student in CS at MIT. I do 
+               <span className="hl">
+                <mark> computational biology </mark>
+                <span className="aside">(deep learning for immunology)</span>
+              </span>
+              research!
             </p>
             <p>
               Currently, I work in the Liu Lab at the Ragon Institute. Previously, I worked as:
             </p>
             <ul>
               <li>
-                  an ML Research Engineering Intern at Genesis Therapeutics (now Genesis Molecular AI)
+                  an ML Research Engineering Intern at 
+                  <span className="hl">
+                <mark> Genesis Therapeutics </mark>
+                <span className="aside">(now Genesis Molecular AI)</span>
+              </span> 
               </li>
               <li>
                   a Formal Verification Intern at NVIDIA

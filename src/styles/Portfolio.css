@@ -2,7 +2,28 @@
     padding: 2rem 2rem;       
     padding-top: 2rem;
     max-width: 95%;    
-    margin: 0 auto;      
+    margin: 0 auto;   
+    font-size: 1.15rem;
+      
+  }
+
+  .portfolio-container ul {
+        padding-left: 1.25rem;
+        margin: 0.5rem 0 1rem;
+        list-style-type: "✿ ";
+  }
+
+  .portfolio-container a {
+  color: #5e9956;
+  text-decoration: none;
+  }
+
+  .portfolio-container a:hover {
+    color: #ff67a6;
+  }
+
+  .portfolio-container li::marker {
+      color: #5e9956;
   }
   
   .portfolio-images {

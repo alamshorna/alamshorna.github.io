@@ -15,6 +15,7 @@
         padding-left: 1.25rem;
         margin: 0.5rem 0 1rem;
         list-style-type: "✿ ";
+
     }
 
     .home-container li::marker {
@@ -24,6 +25,39 @@
     .name-paragraph {
         margin-bottom: 25px;
       }
+    
+    mark {
+    background: linear-gradient(transparent 40%, #ffcbe1 40%);
+    color: inherit;
+    }
+
+    mark:hover {
+    background: linear-gradient(transparent 40%, #ffb3d1 40%);
+    }
+
+    .hl {
+    position: relative;
+    }
+
+    .hl .aside {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0rem;
+    white-space: nowrap;
+    padding: 0.15rem 0rem;
+    /* background-color: #fffef5; */
+    color: #ff67a6;
+    font-size: 1.15rem;
+    border-radius: 0.4rem;
+    line-height: 1;
+    }
+
+    .hl:hover .aside {
+    display: block;
+    }
     
     /* .waving-image {
         width: 200px;
