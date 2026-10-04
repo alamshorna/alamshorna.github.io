@@ -18,9 +18,13 @@ function Navbar() {
           />
         </Link>
         <div className="navbar-links">
-          <Link to="/portfolio">Portfolio</Link>
-          <Link to="/notes">Notes</Link>
+          
+          <Link to="/portfolio">Art</Link>
           <Link to="/blog">Blog</Link>
+
+          <Link to="/notes">Notes</Link>
+          <Link to="/publications">Publications</Link>
+          
         </div>
       </div>
     </nav>

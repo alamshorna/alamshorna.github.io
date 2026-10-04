@@ -1,26 +1,26 @@
-  .notes-container {
-    padding: 5rem;       /* same as p-8 */
-    padding-top: 2rem;
-    max-width: 90%;    /* same as max-w-4xl */
-    margin: 0 auto;      /* same as mx-auto */
-    padding-left: 1rem;  /* extra left padding */
-    font-size: 1.15rem;
-    color: #333;
-  }
+.notes-container {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 2rem 2rem 5rem;
+  font-size: 1.15rem;
+  color: #333;
+}
+.notes-container p {
+  color: #333;
+}
 
-  .notes-container p {
-    color: #333;
-  }
+.notes-container h1 {
+  font-size: 2rem;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  color: #5e9956;
+}
 
-  .notes-container h1 {
-    font-size: 2rem;
-    font-family: 'NotoSans', sans-serif;
-  }
+.notes-container h2 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+}
 
-  .notes-container h2 {
-    color: #333;
-  }
-
-  .notes-container h3 {
-    color: #333;
-  }
+.notes-container h3 {
+  color: #333;
+}

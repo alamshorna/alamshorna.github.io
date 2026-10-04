@@ -4,8 +4,6 @@ import '../styles/Portfolio.css';
 function Portfolio() {
   return (
     <div className="portfolio-container">
-      {/* <p>I would like this page to be a landing page for the art that I do!</p> */}
-      {/* <p>I have been painting for a very long time; hopefully (after the semester ends) I will turn this page into a gallery page.</p> */}
       <p>
         I'm a blogger for MIT Admissions and I also write personal essays on my Substack at&nbsp;
         <a href="https://shornaalam.substack.com" target="_blank" rel="noopener noreferrer">

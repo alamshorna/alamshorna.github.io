@@ -74,7 +74,7 @@ function Notes() {
   return (
     <div className="notes-container">
       <h1 className="text-4xl font-bold mb-10">Class Notes</h1>
-      <p> This page includes notes for classes I took during undergrad! I've omitted most of my humanities classes, for which I generally didn't take detailed notes.
+      <p> I've omitted most of my humanities classes, for which I generally didn't take detailed notes.
       </p>
         
         {semesters.map((semester, idx) => (

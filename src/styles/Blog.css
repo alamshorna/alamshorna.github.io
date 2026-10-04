@@ -1,19 +1,48 @@
-  .blog-container {
-    /* padding: 20px;
-    max-width: 1200px;
-    margin: auto; */
-    padding: 5rem;       
-    padding-top: 2rem;
-    max-width: 64rem;    
-    margin: 0 auto;     
-    padding-left: 4rem;  
-  }
-  
-  .blog-post {
-    margin-bottom: 40px;
-  }
-  
-  .blog-date {
-    color: gray;
-    font-size: 0.9rem;
-  }
+.blog-container {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 2rem 2rem 5rem;
+  font-size: 1.15rem;
+  color: #333;
+}
+
+.blog-container h1 {
+  font-size: 2rem;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  color: #5e9956;
+}
+
+.blog-entry {
+  padding: 1.15rem 0;
+  border-bottom: 1px solid #dfe8dc;
+}
+
+.blog-entry:last-child {
+  border-bottom: none;
+}
+
+.blog-title {
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+}
+
+.blog-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+
+.blog-title a:hover {
+  color: #ff67a6;
+}
+
+.blog-summary {
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+}
+
+.blog-date {
+  font-size: 0.9rem;
+  color: gray;
+}

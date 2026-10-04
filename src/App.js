@@ -7,6 +7,7 @@ import Notes from './pages/Notes';
 import NotePage from './pages/NotePage';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
+import Publications from './pages/Publications';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />  {}
+        <Route path="/publications" element={<Publications />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/notes" element={<Notes />} />
         <Route path="/notes/:fileName" element={<NotePage />} />

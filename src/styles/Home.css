@@ -25,14 +25,14 @@
         margin-bottom: 25px;
       }
     
-    .waving-image {
+    /* .waving-image {
         width: 200px;
         height: 200px;
         margin-left: -90px;
         margin-top: 10px; 
         margin-bottom: -30px;
         vertical-align: bottom;
-      }
+      } */
     
     .home-images {
         display: flex;
@@ -44,7 +44,7 @@
     
     .home-images img {
         max-width: 300px;
-        height: 150px;
+        height: 225px;
         width: auto;
         object-fit: cover;
         display: block;
