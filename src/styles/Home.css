@@ -17,6 +17,10 @@
         list-style-type: "✿ ";
     }
 
+    .home-container li::marker {
+        color: #5e9956;
+    }
+
     .name-paragraph {
         margin-bottom: 25px;
       }
@@ -33,15 +37,13 @@
     .home-images {
         display: flex;
         flex-wrap: wrap;
-        gap: 0.5rem;
-        padding: 2rem 5%;
+        gap: 0.25rem;
         justify-content: center;
         align-items: flex-end;
-        /* margin-top: auto; */
     }
     
     .home-images img {
-        max-width: 200px;
+        max-width: 300px;
         height: 150px;
         width: auto;
         object-fit: cover;
