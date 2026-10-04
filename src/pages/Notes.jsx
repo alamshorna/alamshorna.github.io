@@ -51,7 +51,7 @@ const semesters = [
     name: "Spring 2025",
     classes: [
       { name: "ML for Healthcare (6.7930)", file: "6.7930.md" },
-      { name: "Molecular Basis of Infectious Disease (7.26)", file: "7.26.md" },
+      { name: "Molecular Basis of Infectious Disease (7.26)", file: "7.26.pdf" },,
       { name: "Genetics (7.03)", file: "7.03.md" },
       { name: "Symmetry for ML - Listener (6.s899)", file: "6.s899.md" },
       { name: "Health Policy (17.315)", file: "17.315.md" },
@@ -74,12 +74,7 @@ function Notes() {
   return (
     <div className="notes-container">
       <h1 className="text-4xl font-bold mb-10">Class Notes</h1>
-      <p> This page includes notes for classes I've taken during undergrad! In general, notes for CS and math classes have been typeset in LaTeX
-        (those written in green are in-progress). For biology classes, I've left them as handwritten pdf files separated by lecture number.
-        Course notes have been organized by semester and are by no means comprehensive. 
-        I've omitted most of the humanities classes I have taken, for which I generally didn't take detailed notes.</p>
-      
-      <p> Note also that I have mostly listed courses with their old Course 6 numbers, especially prior to Fall 2023.
+      <p> This page includes notes for classes I took during undergrad! I've omitted most of my humanities classes, for which I generally didn't take detailed notes.
       </p>
         
         {semesters.map((semester, idx) => (
@@ -88,12 +83,23 @@ function Notes() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {semester.classes.map((course, courseIdx) => (
               <div key={courseIdx} className="border p-6 rounded-xl shadow hover:shadow-lg transition">
-                <Link
-                  to={`/notes/${course.file}`}
-                  className="text-2xl font-semibold text-blue-600 hover:underline"
-                >
-                  {course.name}
-                </Link>
+                {course.file.endsWith(".pdf") ? (
+                  <a
+                    href={`/notes/${course.file}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-2xl font-semibold text-blue-600 hover:underline"
+                  >
+                    {course.name}
+                  </a>
+                ) : (
+                  <Link
+                    to={`/notes/${course.file}`}
+                    className="text-2xl font-semibold text-blue-600 hover:underline"
+                  >
+                    {course.name}
+                  </Link>
+                )}
               </div>
             ))}
           </div>

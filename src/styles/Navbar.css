@@ -1,10 +1,8 @@
 
   .navbar {
-    /* border-top: 2px solid #5e9956;
-    border-bottom: 2px solid #5e9956;  */
     padding: 5px;
     width: 100%; 
-    margin-top: 20px;
+    margin-top: 0px;
   }
   
   .navbar-content {
@@ -17,7 +15,7 @@
   }
   
   .home-link {
-    font-family: 'Transcity', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 30px;
     color: #5e9956;
     text-decoration: none; 
@@ -25,8 +23,8 @@
   }
 
   .navbar-links {
-    border-top: 2px solid #5e9956;
-    border-bottom: 2px solid #5e9956;
+    /* border-top: 2px solid #5e9956;
+    border-bottom: 2px solid #5e9956; */
     display: flex;
     justify-content: right;
     gap: 20px;
@@ -35,8 +33,9 @@
     padding: 10px 0;
   }
   .navbar-links a { 
-    font-family: 'Transcity', sans-serif;
-    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
     color: #5e9956;
     text-decoration: none; 
   }

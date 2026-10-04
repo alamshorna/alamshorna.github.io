@@ -21,16 +21,16 @@ function Portfolio() {
       </p>
 
       <div className="portfolio-images">
-        <img src="/alison.png" alt="Portfolio image" />
-        <img src="/eggs.png" alt="Portfolio image" />
-        <img src="/fish.png" alt="Portfolio image" />
-        <img src="/frog cake.png" alt="Portfolio image" />
-        <img src="/hands.png" alt="Portfolio image" />
-        <img src="/pencil.jpg" alt="Portfolio image" />
-        <img src="/blue pen.jpg" alt="Portfolio image" />
-        <img src="/plums.png" alt="Portfolio image" />
-        <img src="/self portrait.png" alt="Portfolio image" />
-        <img src="/shroomguys.png" alt="Portfolio image" />
+        <img src="/alison.webp" alt="Portfolio image" />
+        <img src="/eggs.webp" alt="Portfolio image" />
+        <img src="/fish.webp" alt="Portfolio image" />
+        <img src="/frog cake.webp" alt="Portfolio image" />
+        <img src="/hands.webp" alt="Portfolio image" />
+        <img src="/pencil.webp" alt="Portfolio image" />
+        <img src="/blue pen.webp" alt="Portfolio image" />
+        <img src="/plums.webp" alt="Portfolio image" />
+        <img src="/self portrait.webp" alt="Portfolio image" />
+        <img src="/shroomguys.webp" alt="Portfolio image" />
     </div>
     </div>
   );
