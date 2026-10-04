@@ -16,9 +16,10 @@ function BlogPost() {
         setLoading(true);
         setError(null);
         
-        const res = await import(`../blogs/${id}.md`);
-        const response = await fetch(res.default);
+        const response = await fetch(`${process.env.PUBLIC_URL}/blogs/${id}.md`);
+        if (!response.ok) throw new Error('Not found');
         const text = await response.text();
+        if (text.trim().startsWith('<!DOCTYPE')) throw new Error('Not found');
         const { data, content } = matter(text);
         setPost({ ...data, content });
       } catch (err) {

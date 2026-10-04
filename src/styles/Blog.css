@@ -30,6 +30,8 @@
 .blog-title a {
   color: #333;
   text-decoration: none;
+  font-weight: 300;
+  font-size: 1.25rem;
 }
 
 

@@ -1,20 +1,6 @@
 /* src/styles/global.css */
 
 @font-face {
-    font-family: 'Transcity'; 
-    src: url('../fonts/Transcity DEMO.otf') format('opentype'); 
-    font-weight: normal;
-    font-style: normal;
-  }
-
-@font-face {
-    font-family: 'NotoSans'; 
-    src: url('../fonts/NotoSans-Light.ttf') format('opentype'); 
-    font-weight: normal;
-    font-style: normal;
-  }
-
-@font-face {
     font-family: 'Outfit'; 
     src: url('../fonts/Outfit-VariableFont_wght.ttf') format('opentype'); 
     font-weight: normal;
