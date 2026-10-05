@@ -88,7 +88,7 @@
     position: absolute;
     right: 5;
     top: 50%;
-    transform: translateY(-25%);
+    transform: translateY(25%);
     width: 14rem;
     pointer-events: none;
     opacity: 0;

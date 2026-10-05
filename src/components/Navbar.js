@@ -8,12 +8,11 @@ function Navbar() {
       <div className="navbar-content">
         <Link to="/" className="home-link">
           <img 
-            src="/strawby.webp" 
+            src="/strawby.png" 
             alt="Substack" 
             style=
             {{
-              width: '80px',
-              height: '80px'
+              width: '100px',
             }}
           />
         </Link>
