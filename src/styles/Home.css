@@ -83,3 +83,18 @@
         object-fit: cover;
         display: block;
     }
+
+    .side-image {
+    position: absolute;
+    right: 5;
+    top: 50%;
+    transform: translateY(-25%);
+    width: 14rem;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    }
+
+    .rabbit-hover:hover .side-image {
+    opacity: 1;
+    }

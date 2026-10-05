@@ -22,11 +22,6 @@ function Home() {
                 fontSize: '30px',
               }}>
                 Hi, I'm Shorna! 
-                {/* <img
-                  src="/waving_shorna.webp" 
-                  alt="Waving Shorna" 
-                  className="waving-image"
-                /> */}
               </p>
               <div style={{ display: 'flex', justifyContent: 'flex-start', gap: '20px', marginTop: '15px'}}>
                 <a href="mailto:alam.shorna@gmail.com" title="Email"><FaGoogle size={28} /></a>
@@ -61,9 +56,9 @@ function Home() {
               <li>
                   an ML Research Engineering Intern at 
                   <span className="hl">
-                <mark> Genesis Therapeutics </mark>
-                <span className="aside">(now Genesis Molecular AI)</span>
-              </span> 
+                    <mark> Genesis Therapeutics </mark>
+                    <span className="aside">(now Genesis Molecular AI)</span>
+                  </span> 
               </li>
               <li>
                   a Formal Verification Intern at NVIDIA
@@ -76,7 +71,16 @@ function Home() {
               </li>
             </ul>
             <p>
-              I enjoy making art, weightlifting, and spending time with my rabbit.
+              <p>
+                I enjoy making art, weightlifting, and spending time with{" "}
+                <span className="rabbit-hover">
+                  <span className="hl">
+                    <mark>my rabbit</mark>
+                    <span className="aside">tinsel!</span>
+                  </span>
+                  <img src="/tinsel.png" alt="Tinsel the rabbit" className="side-image" />
+                </span>.
+              </p>
             </p>
         </div>
       </div>
