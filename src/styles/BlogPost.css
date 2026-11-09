@@ -33,3 +33,35 @@
   color: gray;
   margin: 0 0 0.2rem;
 }
+
+/* the styling for the posts themselves */
+
+.blog-post-container {
+  max-width: 64rem; /*set this one to make it occupy a smaller part of the width of the webpage (oops) */
+  margin: 0 auto;
+  /* padding: 2rem 2rem 5rem; */
+  font-size: 1.15rem;
+  color: #333;
+}
+
+.blog-post-container h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #5e9956;
+}
+
+.blog-post-container p {
+  font-weight: 200; 
+  font-size: 1.15rem;
+}
+
+.blog-post-container ul {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0 1rem;
+  list-style-type: "✿ ";
+
+}
+
+.blog-post-container li::marker {
+    color: #5e9956;
+}

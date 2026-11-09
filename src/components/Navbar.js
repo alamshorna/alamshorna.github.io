@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Navbar.css';  // Make sure to import the CSS file
+import '../styles/Navbar.css';
 
 function Navbar() {
   return (
@@ -9,7 +9,7 @@ function Navbar() {
         <Link to="/" className="home-link">
           <img 
             src="/strawby.png" 
-            alt="Substack" 
+            alt="strawby! (and homepage link)" 
             style=
             {{
               width: '100px',
@@ -20,7 +20,6 @@ function Navbar() {
           
           <Link to="/portfolio">Art</Link>
           <Link to="/blog">Blog</Link>
-
           <Link to="/notes">Notes</Link>
           <Link to="/publications">Publications</Link>
           

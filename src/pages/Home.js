@@ -6,6 +6,7 @@ function Home() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}> 
       <div 
+      // move this stuff into the .css file bro...
       style={{
         display: 'flex',
         alignItems: 'flex-start',
@@ -94,5 +95,4 @@ function Home() {
     </div>
   );
 }
-
 export default Home;

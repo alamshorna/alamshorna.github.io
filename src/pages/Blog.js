@@ -4,8 +4,7 @@ import matter from 'gray-matter';
 import '../styles/Blog.css';
 
 const blogFiles = [
-  "paper1.md",
-  "paper2.md",
+  "ReadingAroundTheWorld.md"
 ];
 
 function Blog() {

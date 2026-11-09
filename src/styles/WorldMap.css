@@ -1,0 +1,45 @@
+.map-container {
+    max-width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.rsm-svg {
+    fill: #5e9956;
+    stroke: white;
+    
+}
+
+/* remove the ugly blue line */
+.rsm-geography:focus{
+    outline: none;
+}
+
+.rsm-geography:hover {
+    fill: #f6d3e1;
+}
+
+.rsm-geography.read {
+    fill: #ff67a6;
+}
+
+.rsm-geography.unread {
+    fill: #5e9956;
+}
+
+
+.map-container .aside {
+    position: absolute;
+    bottom: 100%;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-bottom: 0rem;
+    padding: 0.15rem 0rem;
+    background-color: #fffef5;
+    border-color: #5e9956;
+    color: #ff67a6;
+    font-size: 1.15rem;
+    border-radius: 0.4rem;
+    border: 1px solid;
+    line-height: 1;
+}
+
