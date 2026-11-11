@@ -2,8 +2,32 @@
   "South Korea": {
     "Title": "The Vegetarian", 
     "Author": "Han Kang", 
-    "Review": "Very weird. Very delightful.",
+    "Review": "Very strange. Made me crave meat in the way formaldehyde does.",
     "Cover": "Vegetarian.png"
 
+  }, 
+  "Japan": {
+    "Title": "The Emissary", 
+    "Author": "Yoko Tawada", 
+    "Review": "Weird, delightful, melancholic. I felt like I was emanating a bright white light after reading this.",
+    "Cover": "Emissary.png"
+  }, 
+  "Brazil": {
+    "Title": "The Alchemist", 
+    "Author": "Paolo Coelho", 
+    "Review": "Vaguely magical realism. Found it a little heavy-handed, written with a certain unappealing matter-of-fact tone. The main character is very evidently a teenage boy, per his thoughts and actions.",
+    "Cover": "Alchemist.png"
+  }, 
+  "Russia": {
+    "Title": "War and Peace", 
+    "Author": "Leo Tolstoy", 
+    "Review": "Tolstoy can always be counted on for a truly desolate and lovely death.",
+    "Cover": "WarAndPeace.png"
+  },
+  "China": {
+    "Title": "China in Ten Words", 
+    "Author": "Yu Hua", 
+    "Review": "The writing in this book is really incredible, a mixed up work of pride and horror. ",
+    "Cover": "ChinaTenWords.png"
   }
 }

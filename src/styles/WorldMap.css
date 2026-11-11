@@ -27,19 +27,71 @@
 }
 
 
-.map-container .aside {
-    position: absolute;
-    bottom: 100%;
-    left: 50%; 
-    transform: translateX(-50%);
-    margin-bottom: 0rem;
-    padding: 0.15rem 0rem;
-    background-color: #fffef5;
-    border-color: #5e9956;
-    color: #ff67a6;
-    font-size: 1.15rem;
-    border-radius: 0.4rem;
-    border: 1px solid;
-    line-height: 1;
+.rsm-geography.read:hover {
+    fill: #f6d3e1;
+    cursor: pointer;
 }
 
+.world-map {
+    position: relative;
+}
+
+.book-card {
+    position: absolute;
+    transform: translate(-50%, calc(-100% - 12px));
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    width: max-content;
+    max-width: 18rem;
+    padding: 0.6rem 0.75rem;
+    background-color: #fffef5;
+    border: 1px solid #5e9956;
+    border-radius: 0.5rem;
+    pointer-events: none; 
+    z-index: 10;
+}
+
+.book-card.pinned {
+    border-color: #ff67a6;
+}
+
+.book-cover {
+    width: 6rem;
+    height: auto;
+    border-radius: 0.2rem;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    line-height: 1.25;
+}
+
+.book-country {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #5e9956;
+}
+
+.book-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    font-style: italic;
+    color: #ff67a6;
+}
+
+.book-author {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.book-review {
+    margin: 0.35rem 0 0;
+    font-size: 0.9rem;
+    color: #333;
+}
